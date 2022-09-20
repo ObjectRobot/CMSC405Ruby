@@ -21,7 +21,7 @@ end
 
 puts tell_the_truth
 
-# FUnctions in RUby may have parameters.
+# Functions in RUby may have parameters.
 def say_hello name
     return 'Hello ' + name + '1'
 end
@@ -31,5 +31,5 @@ end
 
 puts say_hello 'Benny'
 
-# Every functin is an object. Every function is an object of the class it returns.
+# Every function is an object. Every function is an object of the class it returns.
 puts say_hello('Benny').class
